@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="96219" started-at="2020-08-19T14:44:29Z" finished-at="2020-08-19T14:46:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="96219" started-at="2020-08-19T14:44:29Z" finished-at="2020-08-19T14:46:06Z">
+      <class name="com.OneDayCart.AppTest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.OneDayCart.AppTest@d2cc05a]" name="configBC" is-config="true" duration-ms="77730" started-at="2020-08-19T20:14:29Z" finished-at="2020-08-19T20:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.OneDayCart.AppTest@d2cc05a]" name="configBM" is-config="true" duration-ms="7259" started-at="2020-08-19T20:15:47Z" finished-at="2020-08-19T20:15:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="demo()[pri:0, instance:com.OneDayCart.AppTest@d2cc05a]" name="demo" duration-ms="46" started-at="2020-08-19T20:15:54Z" finished-at="2020-08-19T20:15:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.OneDayCart.AppTest@d2cc05a]" name="configAM" is-config="true" duration-ms="5821" started-at="2020-08-19T20:15:55Z" finished-at="2020-08-19T20:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.OneDayCart.AppTest@d2cc05a]" name="configAC" is-config="true" duration-ms="5328" started-at="2020-08-19T20:16:00Z" finished-at="2020-08-19T20:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.OneDayCart.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
