@@ -1,33 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[   CHANDRIKA GREEN SOAP REGULAR 70GM  was added to your shopping cart.]]>
+    </line>
+    <line>
+      <![CDATA[CHANDRIKA GREEN SOAP REGULAR 70GM  has been moved to wishlist Wishlist]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="96219" started-at="2020-08-19T14:44:29Z" finished-at="2020-08-19T14:46:06Z">
+  <suite name="Default suite" duration-ms="66535" started-at="2020-08-31T17:21:19Z" finished-at="2020-08-31T17:22:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="96219" started-at="2020-08-19T14:44:29Z" finished-at="2020-08-19T14:46:06Z">
-      <class name="com.OneDayCart.AppTest">
-        <test-method status="PASS" signature="configBC()[pri:0, instance:com.OneDayCart.AppTest@d2cc05a]" name="configBC" is-config="true" duration-ms="77730" started-at="2020-08-19T20:14:29Z" finished-at="2020-08-19T20:15:47Z">
+    <test name="Default test" duration-ms="66535" started-at="2020-08-31T17:21:19Z" finished-at="2020-08-31T17:22:25Z">
+      <class name="com.onedayscriptsTPersonalCare.UpdateWishlistOfPersonalCareProduct">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.onedayscriptsTPersonalCare.UpdateWishlistOfPersonalCareProduct@66a3ffec]" name="configBC" is-config="true" duration-ms="18569" started-at="2020-08-31T17:21:19Z" finished-at="2020-08-31T17:21:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method status="PASS" signature="configBM()[pri:0, instance:com.OneDayCart.AppTest@d2cc05a]" name="configBM" is-config="true" duration-ms="7259" started-at="2020-08-19T20:15:47Z" finished-at="2020-08-19T20:15:54Z">
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.onedayscriptsTPersonalCare.UpdateWishlistOfPersonalCareProduct@66a3ffec]" name="configBM" is-config="true" duration-ms="4677" started-at="2020-08-31T17:21:37Z" finished-at="2020-08-31T17:21:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="demo()[pri:0, instance:com.OneDayCart.AppTest@d2cc05a]" name="demo" duration-ms="46" started-at="2020-08-19T20:15:54Z" finished-at="2020-08-19T20:15:55Z">
+        <test-method status="PASS" signature="productCartTest()[pri:0, instance:com.onedayscriptsTPersonalCare.UpdateWishlistOfPersonalCareProduct@66a3ffec]" name="productCartTest" duration-ms="38505" started-at="2020-08-31T17:21:42Z" finished-at="2020-08-31T17:22:21Z">
           <reporter-output>
+            <line>
+              <![CDATA[   CHANDRIKA GREEN SOAP REGULAR 70GM  was added to your shopping cart.]]>
+            </line>
+            <line>
+              <![CDATA[CHANDRIKA GREEN SOAP REGULAR 70GM  has been moved to wishlist Wishlist]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- demo -->
-        <test-method status="PASS" signature="configAM()[pri:0, instance:com.OneDayCart.AppTest@d2cc05a]" name="configAM" is-config="true" duration-ms="5821" started-at="2020-08-19T20:15:55Z" finished-at="2020-08-19T20:16:00Z">
+        </test-method> <!-- productCartTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.onedayscriptsTPersonalCare.UpdateWishlistOfPersonalCareProduct@66a3ffec]" name="configAM" is-config="true" duration-ms="3761" started-at="2020-08-31T17:22:21Z" finished-at="2020-08-31T17:22:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method status="PASS" signature="configAC()[pri:0, instance:com.OneDayCart.AppTest@d2cc05a]" name="configAC" is-config="true" duration-ms="5328" started-at="2020-08-19T20:16:00Z" finished-at="2020-08-19T20:16:06Z">
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.onedayscriptsTPersonalCare.UpdateWishlistOfPersonalCareProduct@66a3ffec]" name="configAC" is-config="true" duration-ms="962" started-at="2020-08-31T17:22:24Z" finished-at="2020-08-31T17:22:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-      </class> <!-- com.OneDayCart.AppTest -->
+      </class> <!-- com.onedayscriptsTPersonalCare.UpdateWishlistOfPersonalCareProduct -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

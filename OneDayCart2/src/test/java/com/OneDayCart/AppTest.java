@@ -10,9 +10,9 @@ import com.genericLib.Base;
 public class AppTest extends Base
 {
    @Test()
-   public void demo()
+   public void demoTest()
    {
-	   
+	   System.out.println("hello i am working");
    }
 }
 

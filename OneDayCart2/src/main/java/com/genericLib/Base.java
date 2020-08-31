@@ -5,6 +5,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -17,8 +19,11 @@ import com.objectRepository.LoginPage;
 public class Base {
 	public WebDriver driver = null;
 	public String path = "./src\\main\\java\\com\\testData\\commonData.properties";
+	
 	public static WebDriver driverListener = null;
 	public FileLib flib = new FileLib();
+	public  CommonUtil cu=new CommonUtil();
+	public WebDriverWait wait;
 
 	@BeforeClass(groups = { "smoke", "regression" })
 	public void configBC() {
@@ -33,6 +38,7 @@ public class Base {
 
 		/* using implicitly wait statement */
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		wait=new WebDriverWait(driver,20);
 
 		/* Enter the url */
 		driver.get(flib.getPropertyKeyValue(path, "url"));
@@ -47,7 +53,8 @@ public class Base {
 	public void configBM() {
 		com.objectRepository.LoginPage lp = PageFactory.initElements(driver, com.objectRepository.LoginPage.class);
 		lp.getEmailAddressTextfield().sendKeys(flib.getPropertyKeyValue(path, "username"));
-
+		
+      wait.until(ExpectedConditions.visibilityOf(lp.getEmailAddressTextfield()));
 		lp.getPassowrdTextField().sendKeys(flib.getPropertyKeyValue(path, "password"));
 
 		lp.getLoginButton().click();

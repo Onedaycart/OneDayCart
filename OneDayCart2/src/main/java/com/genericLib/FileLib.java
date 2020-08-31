@@ -26,8 +26,9 @@ public class FileLib {
 		
 		
 	}
+	 
 	
-	public  String getExcelData(String path,String sheetName,int rowNum,int cellNum)
+	public String getExcelData(String path,String sheetName,int rowNum,int cellNum)
 	{
 		FileInputStream ip=null;
 		Workbook wb=null;
@@ -41,6 +42,7 @@ public class FileLib {
 		{
 			e.printStackTrace();
 		}
+		
 		return wb.getSheet(sheetName).getRow(rowNum).getCell(cellNum).toString();
 		
 		
